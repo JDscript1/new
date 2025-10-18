@@ -15,6 +15,7 @@ const crypto = require('crypto');
 
 // Base dir = this Railway subdirectory (self-contained deploy)
 const baseDir = __dirname;
+const dataDir = path.join(baseDir, 'data');
 
 // Optional WhatsApp services (ignored if missing)
 try {
@@ -123,6 +124,77 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(baseDir, 'public', 'index.html'));
 });
 
+// ============================
+// Data helpers (drivers / racks)
+// ============================
+function loadJson(filePath, fallback) {
+  try {
+    if (fs.existsSync(filePath)) {
+      return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    }
+  } catch (e) {
+    console.error(`Eroare la încărcarea ${filePath}:`, e.message);
+  }
+  return fallback;
+}
+
+function saveJson(filePath, data) {
+  try {
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+    return true;
+  } catch (e) {
+    console.error(`Eroare la salvarea ${filePath}:`, e.message);
+    return false;
+  }
+}
+
+const driversFile = path.join(dataDir, 'drivers.json');
+const racksFile = path.join(dataDir, 'racks.json');
+
+let drivers = loadJson(driversFile, []);
+let racks = loadJson(racksFile, null);
+if (!Array.isArray(racks) || racks.length === 0) {
+  // Generează 1000 de poziții implicite
+  racks = Array.from({ length: 1000 }, (_, i) => ({
+    positionNumber: i + 1,
+    status: 'liber',
+    driver: null
+  }));
+}
+
+function reconcileRacksWithDrivers() {
+  // Resetă stările rack-urilor
+  for (const r of racks) {
+    r.status = 'liber';
+    r.driver = null;
+  }
+  // Marchează ocupate conform șoferilor
+  for (const d of drivers) {
+    const pos = parseInt(d.rackPosition, 10);
+    if (Number.isInteger(pos) && pos >= 1 && pos <= racks.length) {
+      const r = racks[pos - 1];
+      r.status = 'ocupat';
+      r.driver = {
+        id: d.id || undefined,
+        firstName: d.firstName,
+        lastName: d.lastName,
+        carNumber: d.carNumber
+      };
+    }
+  }
+}
+
+function computeRackStatistics() {
+  reconcileRacksWithDrivers();
+  const liber = racks.filter(r => r.status === 'liber').length;
+  const ocupat = racks.filter(r => r.status === 'ocupat').length;
+  return {
+    racks: { total: racks.length, liber, ocupat, sosire_apropiata: 0 },
+    drivers: { total: drivers.length }
+  };
+}
+
 // Health check
 app.get('/api/health', (req, res) => {
   res.json({
@@ -134,6 +206,49 @@ app.get('/api/health', (req, res) => {
     environment: process.env.NODE_ENV || 'development',
     emailService
   });
+});
+
+// ============================
+// Drivers minimal API
+// ============================
+app.get('/api/drivers', (req, res) => {
+  try { res.setHeader('Cache-Control', 'no-store'); } catch (_) {}
+  drivers = loadJson(driversFile, drivers);
+  res.json({ drivers });
+});
+
+// ============================
+// Racks minimal API
+// ============================
+app.get('/api/racks', (req, res) => {
+  try { res.setHeader('Cache-Control', 'no-store'); } catch (_) {}
+  // Reload from disk if present
+  const fileRacks = loadJson(racksFile, null);
+  if (Array.isArray(fileRacks) && fileRacks.length) racks = fileRacks;
+  reconcileRacksWithDrivers();
+  const { status } = req.query || {};
+  let result = racks;
+  if (status) result = racks.filter(r => r.status === status);
+  res.json({ racks: result, pagination: { page: 1, limit: result.length, total: result.length, pages: 1 } });
+});
+
+app.get('/api/racks/statistics', (req, res) => {
+  try { res.setHeader('Cache-Control', 'no-store'); } catch (_) {}
+  const statistics = computeRackStatistics();
+  res.json({ statistics });
+});
+
+app.get('/api/racks/available', (req, res) => {
+  reconcileRacksWithDrivers();
+  const available = racks.filter(r => r.status === 'liber');
+  res.json({ racks: available, count: available.length });
+});
+
+app.get('/api/racks/position/:positionNumber', (req, res) => {
+  const pos = parseInt(req.params.positionNumber, 10);
+  if (!Number.isInteger(pos) || pos < 1 || pos > racks.length) return res.status(404).json({ message: 'RACK_NOT_FOUND' });
+  reconcileRacksWithDrivers();
+  res.json({ rack: racks[pos - 1] });
 });
 
 // Login
