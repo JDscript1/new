@@ -12,7 +12,7 @@
           "nixPkgs": [
             "chromium",
             "glib",
-            "libX11",
+            "xorg.libX11",
             "libxkbcommon",
             "freetype",
             "nss",
