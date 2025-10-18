@@ -11,8 +11,8 @@
         "setup": {
           "nixPkgs": [
             "chromium",
-            "libglib",
-            "libx11",
+            "glib",
+            "libX11",
             "libxkbcommon",
             "freetype",
             "nss",
