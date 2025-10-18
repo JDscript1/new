@@ -1,0 +1,13 @@
+{
+  "accounts": {
+    "session-test_account": {
+      "connected": false,
+      "lastConnectedAt": null
+    },
+    "session-test_secure": {
+      "connected": false,
+      "lastConnectedAt": null
+    }
+  },
+  "activeClientId": null
+}

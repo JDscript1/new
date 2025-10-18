@@ -13,8 +13,8 @@ const nodemailer = require('nodemailer');
 const sgMail = require('@sendgrid/mail');
 const crypto = require('crypto');
 
-// Base dir = project root (one level above this file)
-const baseDir = path.resolve(__dirname, '..');
+// Base dir = this Railway subdirectory (self-contained deploy)
+const baseDir = __dirname;
 
 // Optional WhatsApp services (ignored if missing)
 try {
@@ -115,7 +115,7 @@ app.use(morgan('combined'));
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
-// Static from project root public
+// Static from Railway/public
 app.use(express.static(path.join(baseDir, 'public')));
 
 // Explicit root route

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "Runner minimal pentru deploy pe Railway folosind serverul din rădăcină",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "prepare:assets": "node scripts/copy-assets.js"
   },
   "dependencies": {
     "@sendgrid/mail": "^8.1.6",

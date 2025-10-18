@@ -1,0 +1,8002 @@
+[
+  {
+    "id": 1,
+    "positionNumber": 1,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 2,
+    "positionNumber": 2,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 3,
+    "positionNumber": 3,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 4,
+    "positionNumber": 4,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 5,
+    "positionNumber": 5,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 6,
+    "positionNumber": 6,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 7,
+    "positionNumber": 7,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 8,
+    "positionNumber": 8,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 9,
+    "positionNumber": 9,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 10,
+    "positionNumber": 10,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 11,
+    "positionNumber": 11,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 12,
+    "positionNumber": 12,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 13,
+    "positionNumber": 13,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 14,
+    "positionNumber": 14,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 15,
+    "positionNumber": 15,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 16,
+    "positionNumber": 16,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 17,
+    "positionNumber": 17,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 18,
+    "positionNumber": 18,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 19,
+    "positionNumber": 19,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 20,
+    "positionNumber": 20,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 21,
+    "positionNumber": 21,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 22,
+    "positionNumber": 22,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 23,
+    "positionNumber": 23,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 24,
+    "positionNumber": 24,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 25,
+    "positionNumber": 25,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 26,
+    "positionNumber": 26,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 27,
+    "positionNumber": 27,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 28,
+    "positionNumber": 28,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 29,
+    "positionNumber": 29,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 30,
+    "positionNumber": 30,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 31,
+    "positionNumber": 31,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 32,
+    "positionNumber": 32,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 33,
+    "positionNumber": 33,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 34,
+    "positionNumber": 34,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 35,
+    "positionNumber": 35,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 36,
+    "positionNumber": 36,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 37,
+    "positionNumber": 37,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 38,
+    "positionNumber": 38,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 39,
+    "positionNumber": 39,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 40,
+    "positionNumber": 40,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 41,
+    "positionNumber": 41,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 42,
+    "positionNumber": 42,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 43,
+    "positionNumber": 43,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 44,
+    "positionNumber": 44,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 45,
+    "positionNumber": 45,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 46,
+    "positionNumber": 46,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 47,
+    "positionNumber": 47,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 48,
+    "positionNumber": 48,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 49,
+    "positionNumber": 49,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 50,
+    "positionNumber": 50,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 51,
+    "positionNumber": 51,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 52,
+    "positionNumber": 52,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 53,
+    "positionNumber": 53,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 54,
+    "positionNumber": 54,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 55,
+    "positionNumber": 55,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 56,
+    "positionNumber": 56,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 57,
+    "positionNumber": 57,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 58,
+    "positionNumber": 58,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 59,
+    "positionNumber": 59,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 60,
+    "positionNumber": 60,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 61,
+    "positionNumber": 61,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 62,
+    "positionNumber": 62,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 63,
+    "positionNumber": 63,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 64,
+    "positionNumber": 64,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 65,
+    "positionNumber": 65,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 66,
+    "positionNumber": 66,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 67,
+    "positionNumber": 67,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 68,
+    "positionNumber": 68,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 69,
+    "positionNumber": 69,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 70,
+    "positionNumber": 70,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 71,
+    "positionNumber": 71,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 72,
+    "positionNumber": 72,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 73,
+    "positionNumber": 73,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 74,
+    "positionNumber": 74,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 75,
+    "positionNumber": 75,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 76,
+    "positionNumber": 76,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 77,
+    "positionNumber": 77,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 78,
+    "positionNumber": 78,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 79,
+    "positionNumber": 79,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 80,
+    "positionNumber": 80,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 81,
+    "positionNumber": 81,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 82,
+    "positionNumber": 82,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 83,
+    "positionNumber": 83,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 84,
+    "positionNumber": 84,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 85,
+    "positionNumber": 85,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 86,
+    "positionNumber": 86,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 87,
+    "positionNumber": 87,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 88,
+    "positionNumber": 88,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 89,
+    "positionNumber": 89,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 90,
+    "positionNumber": 90,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 91,
+    "positionNumber": 91,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 92,
+    "positionNumber": 92,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 93,
+    "positionNumber": 93,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 94,
+    "positionNumber": 94,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 95,
+    "positionNumber": 95,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 96,
+    "positionNumber": 96,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 97,
+    "positionNumber": 97,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 98,
+    "positionNumber": 98,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 99,
+    "positionNumber": 99,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 100,
+    "positionNumber": 100,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 101,
+    "positionNumber": 101,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 102,
+    "positionNumber": 102,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 103,
+    "positionNumber": 103,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 104,
+    "positionNumber": 104,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 105,
+    "positionNumber": 105,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 106,
+    "positionNumber": 106,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 107,
+    "positionNumber": 107,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 108,
+    "positionNumber": 108,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 109,
+    "positionNumber": 109,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 110,
+    "positionNumber": 110,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 111,
+    "positionNumber": 111,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 112,
+    "positionNumber": 112,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 113,
+    "positionNumber": 113,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 114,
+    "positionNumber": 114,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 115,
+    "positionNumber": 115,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 116,
+    "positionNumber": 116,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 117,
+    "positionNumber": 117,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 118,
+    "positionNumber": 118,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 119,
+    "positionNumber": 119,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 120,
+    "positionNumber": 120,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 121,
+    "positionNumber": 121,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 122,
+    "positionNumber": 122,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 123,
+    "positionNumber": 123,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 124,
+    "positionNumber": 124,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 125,
+    "positionNumber": 125,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 126,
+    "positionNumber": 126,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 127,
+    "positionNumber": 127,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 128,
+    "positionNumber": 128,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 129,
+    "positionNumber": 129,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 130,
+    "positionNumber": 130,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 131,
+    "positionNumber": 131,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 132,
+    "positionNumber": 132,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 133,
+    "positionNumber": 133,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 134,
+    "positionNumber": 134,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 135,
+    "positionNumber": 135,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 136,
+    "positionNumber": 136,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 137,
+    "positionNumber": 137,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 138,
+    "positionNumber": 138,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 139,
+    "positionNumber": 139,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 140,
+    "positionNumber": 140,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 141,
+    "positionNumber": 141,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 142,
+    "positionNumber": 142,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 143,
+    "positionNumber": 143,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 144,
+    "positionNumber": 144,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 145,
+    "positionNumber": 145,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 146,
+    "positionNumber": 146,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 147,
+    "positionNumber": 147,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 148,
+    "positionNumber": 148,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 149,
+    "positionNumber": 149,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 150,
+    "positionNumber": 150,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 151,
+    "positionNumber": 151,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 152,
+    "positionNumber": 152,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 153,
+    "positionNumber": 153,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 154,
+    "positionNumber": 154,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 155,
+    "positionNumber": 155,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 156,
+    "positionNumber": 156,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 157,
+    "positionNumber": 157,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 158,
+    "positionNumber": 158,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 159,
+    "positionNumber": 159,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 160,
+    "positionNumber": 160,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 161,
+    "positionNumber": 161,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 162,
+    "positionNumber": 162,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 163,
+    "positionNumber": 163,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 164,
+    "positionNumber": 164,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 165,
+    "positionNumber": 165,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 166,
+    "positionNumber": 166,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 167,
+    "positionNumber": 167,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 168,
+    "positionNumber": 168,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 169,
+    "positionNumber": 169,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 170,
+    "positionNumber": 170,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 171,
+    "positionNumber": 171,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 172,
+    "positionNumber": 172,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 173,
+    "positionNumber": 173,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 174,
+    "positionNumber": 174,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 175,
+    "positionNumber": 175,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 176,
+    "positionNumber": 176,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 177,
+    "positionNumber": 177,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 178,
+    "positionNumber": 178,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 179,
+    "positionNumber": 179,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 180,
+    "positionNumber": 180,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 181,
+    "positionNumber": 181,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 182,
+    "positionNumber": 182,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 183,
+    "positionNumber": 183,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 184,
+    "positionNumber": 184,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 185,
+    "positionNumber": 185,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 186,
+    "positionNumber": 186,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 187,
+    "positionNumber": 187,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 188,
+    "positionNumber": 188,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 189,
+    "positionNumber": 189,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 190,
+    "positionNumber": 190,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 191,
+    "positionNumber": 191,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 192,
+    "positionNumber": 192,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 193,
+    "positionNumber": 193,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 194,
+    "positionNumber": 194,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 195,
+    "positionNumber": 195,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 196,
+    "positionNumber": 196,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 197,
+    "positionNumber": 197,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 198,
+    "positionNumber": 198,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 199,
+    "positionNumber": 199,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 200,
+    "positionNumber": 200,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 201,
+    "positionNumber": 201,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 202,
+    "positionNumber": 202,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 203,
+    "positionNumber": 203,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 204,
+    "positionNumber": 204,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 205,
+    "positionNumber": 205,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 206,
+    "positionNumber": 206,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 207,
+    "positionNumber": 207,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 208,
+    "positionNumber": 208,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 209,
+    "positionNumber": 209,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 210,
+    "positionNumber": 210,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 211,
+    "positionNumber": 211,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 212,
+    "positionNumber": 212,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 213,
+    "positionNumber": 213,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 214,
+    "positionNumber": 214,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 215,
+    "positionNumber": 215,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 216,
+    "positionNumber": 216,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 217,
+    "positionNumber": 217,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 218,
+    "positionNumber": 218,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 219,
+    "positionNumber": 219,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 220,
+    "positionNumber": 220,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 221,
+    "positionNumber": 221,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 222,
+    "positionNumber": 222,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 223,
+    "positionNumber": 223,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 224,
+    "positionNumber": 224,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 225,
+    "positionNumber": 225,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 226,
+    "positionNumber": 226,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 227,
+    "positionNumber": 227,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 228,
+    "positionNumber": 228,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 229,
+    "positionNumber": 229,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 230,
+    "positionNumber": 230,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 231,
+    "positionNumber": 231,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 232,
+    "positionNumber": 232,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 233,
+    "positionNumber": 233,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 234,
+    "positionNumber": 234,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 235,
+    "positionNumber": 235,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 236,
+    "positionNumber": 236,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 237,
+    "positionNumber": 237,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 238,
+    "positionNumber": 238,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 239,
+    "positionNumber": 239,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 240,
+    "positionNumber": 240,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 241,
+    "positionNumber": 241,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 242,
+    "positionNumber": 242,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 243,
+    "positionNumber": 243,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 244,
+    "positionNumber": 244,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 245,
+    "positionNumber": 245,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 246,
+    "positionNumber": 246,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 247,
+    "positionNumber": 247,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 248,
+    "positionNumber": 248,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 249,
+    "positionNumber": 249,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 250,
+    "positionNumber": 250,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 251,
+    "positionNumber": 251,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 252,
+    "positionNumber": 252,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 253,
+    "positionNumber": 253,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 254,
+    "positionNumber": 254,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 255,
+    "positionNumber": 255,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 256,
+    "positionNumber": 256,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 257,
+    "positionNumber": 257,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 258,
+    "positionNumber": 258,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 259,
+    "positionNumber": 259,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 260,
+    "positionNumber": 260,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 261,
+    "positionNumber": 261,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 262,
+    "positionNumber": 262,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 263,
+    "positionNumber": 263,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 264,
+    "positionNumber": 264,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 265,
+    "positionNumber": 265,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 266,
+    "positionNumber": 266,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 267,
+    "positionNumber": 267,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 268,
+    "positionNumber": 268,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 269,
+    "positionNumber": 269,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 270,
+    "positionNumber": 270,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 271,
+    "positionNumber": 271,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 272,
+    "positionNumber": 272,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 273,
+    "positionNumber": 273,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 274,
+    "positionNumber": 274,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 275,
+    "positionNumber": 275,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 276,
+    "positionNumber": 276,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 277,
+    "positionNumber": 277,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 278,
+    "positionNumber": 278,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 279,
+    "positionNumber": 279,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 280,
+    "positionNumber": 280,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 281,
+    "positionNumber": 281,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 282,
+    "positionNumber": 282,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 283,
+    "positionNumber": 283,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 284,
+    "positionNumber": 284,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 285,
+    "positionNumber": 285,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 286,
+    "positionNumber": 286,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 287,
+    "positionNumber": 287,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 288,
+    "positionNumber": 288,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 289,
+    "positionNumber": 289,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 290,
+    "positionNumber": 290,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 291,
+    "positionNumber": 291,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 292,
+    "positionNumber": 292,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 293,
+    "positionNumber": 293,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 294,
+    "positionNumber": 294,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 295,
+    "positionNumber": 295,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 296,
+    "positionNumber": 296,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 297,
+    "positionNumber": 297,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 298,
+    "positionNumber": 298,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 299,
+    "positionNumber": 299,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 300,
+    "positionNumber": 300,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 301,
+    "positionNumber": 301,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 302,
+    "positionNumber": 302,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 303,
+    "positionNumber": 303,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 304,
+    "positionNumber": 304,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 305,
+    "positionNumber": 305,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 306,
+    "positionNumber": 306,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 307,
+    "positionNumber": 307,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 308,
+    "positionNumber": 308,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 309,
+    "positionNumber": 309,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 310,
+    "positionNumber": 310,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 311,
+    "positionNumber": 311,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 312,
+    "positionNumber": 312,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 313,
+    "positionNumber": 313,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 314,
+    "positionNumber": 314,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 315,
+    "positionNumber": 315,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 316,
+    "positionNumber": 316,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 317,
+    "positionNumber": 317,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 318,
+    "positionNumber": 318,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 319,
+    "positionNumber": 319,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 320,
+    "positionNumber": 320,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 321,
+    "positionNumber": 321,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 322,
+    "positionNumber": 322,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 323,
+    "positionNumber": 323,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 324,
+    "positionNumber": 324,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 325,
+    "positionNumber": 325,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 326,
+    "positionNumber": 326,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 327,
+    "positionNumber": 327,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 328,
+    "positionNumber": 328,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 329,
+    "positionNumber": 329,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 330,
+    "positionNumber": 330,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 331,
+    "positionNumber": 331,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 332,
+    "positionNumber": 332,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 333,
+    "positionNumber": 333,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 334,
+    "positionNumber": 334,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 335,
+    "positionNumber": 335,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 336,
+    "positionNumber": 336,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 337,
+    "positionNumber": 337,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 338,
+    "positionNumber": 338,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 339,
+    "positionNumber": 339,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 340,
+    "positionNumber": 340,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 341,
+    "positionNumber": 341,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 342,
+    "positionNumber": 342,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 343,
+    "positionNumber": 343,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 344,
+    "positionNumber": 344,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 345,
+    "positionNumber": 345,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 346,
+    "positionNumber": 346,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 347,
+    "positionNumber": 347,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 348,
+    "positionNumber": 348,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 349,
+    "positionNumber": 349,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 350,
+    "positionNumber": 350,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 351,
+    "positionNumber": 351,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 352,
+    "positionNumber": 352,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 353,
+    "positionNumber": 353,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 354,
+    "positionNumber": 354,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 355,
+    "positionNumber": 355,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 356,
+    "positionNumber": 356,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 357,
+    "positionNumber": 357,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 358,
+    "positionNumber": 358,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 359,
+    "positionNumber": 359,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 360,
+    "positionNumber": 360,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 361,
+    "positionNumber": 361,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 362,
+    "positionNumber": 362,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 363,
+    "positionNumber": 363,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 364,
+    "positionNumber": 364,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 365,
+    "positionNumber": 365,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 366,
+    "positionNumber": 366,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 367,
+    "positionNumber": 367,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 368,
+    "positionNumber": 368,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 369,
+    "positionNumber": 369,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 370,
+    "positionNumber": 370,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 371,
+    "positionNumber": 371,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 372,
+    "positionNumber": 372,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 373,
+    "positionNumber": 373,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 374,
+    "positionNumber": 374,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 375,
+    "positionNumber": 375,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 376,
+    "positionNumber": 376,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 377,
+    "positionNumber": 377,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 378,
+    "positionNumber": 378,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 379,
+    "positionNumber": 379,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 380,
+    "positionNumber": 380,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 381,
+    "positionNumber": 381,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 382,
+    "positionNumber": 382,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 383,
+    "positionNumber": 383,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 384,
+    "positionNumber": 384,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 385,
+    "positionNumber": 385,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 386,
+    "positionNumber": 386,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 387,
+    "positionNumber": 387,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 388,
+    "positionNumber": 388,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 389,
+    "positionNumber": 389,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 390,
+    "positionNumber": 390,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 391,
+    "positionNumber": 391,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 392,
+    "positionNumber": 392,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 393,
+    "positionNumber": 393,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 394,
+    "positionNumber": 394,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 395,
+    "positionNumber": 395,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 396,
+    "positionNumber": 396,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 397,
+    "positionNumber": 397,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 398,
+    "positionNumber": 398,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 399,
+    "positionNumber": 399,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 400,
+    "positionNumber": 400,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 401,
+    "positionNumber": 401,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 402,
+    "positionNumber": 402,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 403,
+    "positionNumber": 403,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 404,
+    "positionNumber": 404,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 405,
+    "positionNumber": 405,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 406,
+    "positionNumber": 406,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 407,
+    "positionNumber": 407,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 408,
+    "positionNumber": 408,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 409,
+    "positionNumber": 409,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 410,
+    "positionNumber": 410,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 411,
+    "positionNumber": 411,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 412,
+    "positionNumber": 412,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 413,
+    "positionNumber": 413,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 414,
+    "positionNumber": 414,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 415,
+    "positionNumber": 415,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 416,
+    "positionNumber": 416,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 417,
+    "positionNumber": 417,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 418,
+    "positionNumber": 418,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 419,
+    "positionNumber": 419,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 420,
+    "positionNumber": 420,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 421,
+    "positionNumber": 421,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 422,
+    "positionNumber": 422,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 423,
+    "positionNumber": 423,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 424,
+    "positionNumber": 424,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 425,
+    "positionNumber": 425,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 426,
+    "positionNumber": 426,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 427,
+    "positionNumber": 427,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 428,
+    "positionNumber": 428,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 429,
+    "positionNumber": 429,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 430,
+    "positionNumber": 430,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 431,
+    "positionNumber": 431,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 432,
+    "positionNumber": 432,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 433,
+    "positionNumber": 433,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 434,
+    "positionNumber": 434,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 435,
+    "positionNumber": 435,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 436,
+    "positionNumber": 436,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 437,
+    "positionNumber": 437,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 438,
+    "positionNumber": 438,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 439,
+    "positionNumber": 439,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 440,
+    "positionNumber": 440,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 441,
+    "positionNumber": 441,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 442,
+    "positionNumber": 442,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 443,
+    "positionNumber": 443,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 444,
+    "positionNumber": 444,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 445,
+    "positionNumber": 445,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 446,
+    "positionNumber": 446,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 447,
+    "positionNumber": 447,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 448,
+    "positionNumber": 448,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 449,
+    "positionNumber": 449,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 450,
+    "positionNumber": 450,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 451,
+    "positionNumber": 451,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 452,
+    "positionNumber": 452,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 453,
+    "positionNumber": 453,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 454,
+    "positionNumber": 454,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 455,
+    "positionNumber": 455,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 456,
+    "positionNumber": 456,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 457,
+    "positionNumber": 457,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 458,
+    "positionNumber": 458,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 459,
+    "positionNumber": 459,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 460,
+    "positionNumber": 460,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 461,
+    "positionNumber": 461,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 462,
+    "positionNumber": 462,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 463,
+    "positionNumber": 463,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 464,
+    "positionNumber": 464,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 465,
+    "positionNumber": 465,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 466,
+    "positionNumber": 466,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 467,
+    "positionNumber": 467,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 468,
+    "positionNumber": 468,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 469,
+    "positionNumber": 469,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 470,
+    "positionNumber": 470,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 471,
+    "positionNumber": 471,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 472,
+    "positionNumber": 472,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 473,
+    "positionNumber": 473,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 474,
+    "positionNumber": 474,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 475,
+    "positionNumber": 475,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 476,
+    "positionNumber": 476,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 477,
+    "positionNumber": 477,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 478,
+    "positionNumber": 478,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 479,
+    "positionNumber": 479,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 480,
+    "positionNumber": 480,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 481,
+    "positionNumber": 481,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 482,
+    "positionNumber": 482,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 483,
+    "positionNumber": 483,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 484,
+    "positionNumber": 484,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 485,
+    "positionNumber": 485,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 486,
+    "positionNumber": 486,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 487,
+    "positionNumber": 487,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 488,
+    "positionNumber": 488,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 489,
+    "positionNumber": 489,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 490,
+    "positionNumber": 490,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 491,
+    "positionNumber": 491,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 492,
+    "positionNumber": 492,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 493,
+    "positionNumber": 493,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 494,
+    "positionNumber": 494,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 495,
+    "positionNumber": 495,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 496,
+    "positionNumber": 496,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 497,
+    "positionNumber": 497,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 498,
+    "positionNumber": 498,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 499,
+    "positionNumber": 499,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 500,
+    "positionNumber": 500,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 501,
+    "positionNumber": 501,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 502,
+    "positionNumber": 502,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 503,
+    "positionNumber": 503,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 504,
+    "positionNumber": 504,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 505,
+    "positionNumber": 505,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 506,
+    "positionNumber": 506,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 507,
+    "positionNumber": 507,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 508,
+    "positionNumber": 508,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 509,
+    "positionNumber": 509,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 510,
+    "positionNumber": 510,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 511,
+    "positionNumber": 511,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 512,
+    "positionNumber": 512,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 513,
+    "positionNumber": 513,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 514,
+    "positionNumber": 514,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 515,
+    "positionNumber": 515,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 516,
+    "positionNumber": 516,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 517,
+    "positionNumber": 517,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 518,
+    "positionNumber": 518,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 519,
+    "positionNumber": 519,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 520,
+    "positionNumber": 520,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 521,
+    "positionNumber": 521,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 522,
+    "positionNumber": 522,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 523,
+    "positionNumber": 523,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 524,
+    "positionNumber": 524,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 525,
+    "positionNumber": 525,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 526,
+    "positionNumber": 526,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 527,
+    "positionNumber": 527,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 528,
+    "positionNumber": 528,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 529,
+    "positionNumber": 529,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 530,
+    "positionNumber": 530,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 531,
+    "positionNumber": 531,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 532,
+    "positionNumber": 532,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 533,
+    "positionNumber": 533,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 534,
+    "positionNumber": 534,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 535,
+    "positionNumber": 535,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 536,
+    "positionNumber": 536,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 537,
+    "positionNumber": 537,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 538,
+    "positionNumber": 538,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 539,
+    "positionNumber": 539,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 540,
+    "positionNumber": 540,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 541,
+    "positionNumber": 541,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 542,
+    "positionNumber": 542,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 543,
+    "positionNumber": 543,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 544,
+    "positionNumber": 544,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 545,
+    "positionNumber": 545,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 546,
+    "positionNumber": 546,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 547,
+    "positionNumber": 547,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 548,
+    "positionNumber": 548,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 549,
+    "positionNumber": 549,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 550,
+    "positionNumber": 550,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 551,
+    "positionNumber": 551,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 552,
+    "positionNumber": 552,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 553,
+    "positionNumber": 553,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 554,
+    "positionNumber": 554,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 555,
+    "positionNumber": 555,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 556,
+    "positionNumber": 556,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 557,
+    "positionNumber": 557,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 558,
+    "positionNumber": 558,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 559,
+    "positionNumber": 559,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 560,
+    "positionNumber": 560,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 561,
+    "positionNumber": 561,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 562,
+    "positionNumber": 562,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 563,
+    "positionNumber": 563,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 564,
+    "positionNumber": 564,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 565,
+    "positionNumber": 565,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 566,
+    "positionNumber": 566,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 567,
+    "positionNumber": 567,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 568,
+    "positionNumber": 568,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 569,
+    "positionNumber": 569,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 570,
+    "positionNumber": 570,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 571,
+    "positionNumber": 571,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 572,
+    "positionNumber": 572,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 573,
+    "positionNumber": 573,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 574,
+    "positionNumber": 574,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 575,
+    "positionNumber": 575,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 576,
+    "positionNumber": 576,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 577,
+    "positionNumber": 577,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 578,
+    "positionNumber": 578,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 579,
+    "positionNumber": 579,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 580,
+    "positionNumber": 580,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 581,
+    "positionNumber": 581,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 582,
+    "positionNumber": 582,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 583,
+    "positionNumber": 583,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 584,
+    "positionNumber": 584,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 585,
+    "positionNumber": 585,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 586,
+    "positionNumber": 586,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 587,
+    "positionNumber": 587,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 588,
+    "positionNumber": 588,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 589,
+    "positionNumber": 589,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 590,
+    "positionNumber": 590,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 591,
+    "positionNumber": 591,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 592,
+    "positionNumber": 592,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 593,
+    "positionNumber": 593,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 594,
+    "positionNumber": 594,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 595,
+    "positionNumber": 595,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 596,
+    "positionNumber": 596,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 597,
+    "positionNumber": 597,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 598,
+    "positionNumber": 598,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 599,
+    "positionNumber": 599,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 600,
+    "positionNumber": 600,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 601,
+    "positionNumber": 601,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 602,
+    "positionNumber": 602,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 603,
+    "positionNumber": 603,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 604,
+    "positionNumber": 604,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 605,
+    "positionNumber": 605,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 606,
+    "positionNumber": 606,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 607,
+    "positionNumber": 607,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 608,
+    "positionNumber": 608,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 609,
+    "positionNumber": 609,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 610,
+    "positionNumber": 610,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 611,
+    "positionNumber": 611,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 612,
+    "positionNumber": 612,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 613,
+    "positionNumber": 613,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 614,
+    "positionNumber": 614,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 615,
+    "positionNumber": 615,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 616,
+    "positionNumber": 616,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 617,
+    "positionNumber": 617,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 618,
+    "positionNumber": 618,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 619,
+    "positionNumber": 619,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 620,
+    "positionNumber": 620,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 621,
+    "positionNumber": 621,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 622,
+    "positionNumber": 622,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 623,
+    "positionNumber": 623,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 624,
+    "positionNumber": 624,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 625,
+    "positionNumber": 625,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 626,
+    "positionNumber": 626,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 627,
+    "positionNumber": 627,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 628,
+    "positionNumber": 628,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 629,
+    "positionNumber": 629,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 630,
+    "positionNumber": 630,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 631,
+    "positionNumber": 631,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 632,
+    "positionNumber": 632,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 633,
+    "positionNumber": 633,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 634,
+    "positionNumber": 634,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 635,
+    "positionNumber": 635,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 636,
+    "positionNumber": 636,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 637,
+    "positionNumber": 637,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 638,
+    "positionNumber": 638,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 639,
+    "positionNumber": 639,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 640,
+    "positionNumber": 640,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 641,
+    "positionNumber": 641,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 642,
+    "positionNumber": 642,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 643,
+    "positionNumber": 643,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 644,
+    "positionNumber": 644,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 645,
+    "positionNumber": 645,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 646,
+    "positionNumber": 646,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 647,
+    "positionNumber": 647,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 648,
+    "positionNumber": 648,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 649,
+    "positionNumber": 649,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 650,
+    "positionNumber": 650,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 651,
+    "positionNumber": 651,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 652,
+    "positionNumber": 652,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 653,
+    "positionNumber": 653,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 654,
+    "positionNumber": 654,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 655,
+    "positionNumber": 655,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 656,
+    "positionNumber": 656,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 657,
+    "positionNumber": 657,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 658,
+    "positionNumber": 658,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 659,
+    "positionNumber": 659,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 660,
+    "positionNumber": 660,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 661,
+    "positionNumber": 661,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 662,
+    "positionNumber": 662,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 663,
+    "positionNumber": 663,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 664,
+    "positionNumber": 664,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 665,
+    "positionNumber": 665,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 666,
+    "positionNumber": 666,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 667,
+    "positionNumber": 667,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 668,
+    "positionNumber": 668,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 669,
+    "positionNumber": 669,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 670,
+    "positionNumber": 670,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 671,
+    "positionNumber": 671,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 672,
+    "positionNumber": 672,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 673,
+    "positionNumber": 673,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 674,
+    "positionNumber": 674,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 675,
+    "positionNumber": 675,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 676,
+    "positionNumber": 676,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 677,
+    "positionNumber": 677,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 678,
+    "positionNumber": 678,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 679,
+    "positionNumber": 679,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 680,
+    "positionNumber": 680,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 681,
+    "positionNumber": 681,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 682,
+    "positionNumber": 682,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 683,
+    "positionNumber": 683,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 684,
+    "positionNumber": 684,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 685,
+    "positionNumber": 685,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 686,
+    "positionNumber": 686,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 687,
+    "positionNumber": 687,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 688,
+    "positionNumber": 688,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 689,
+    "positionNumber": 689,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 690,
+    "positionNumber": 690,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 691,
+    "positionNumber": 691,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 692,
+    "positionNumber": 692,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 693,
+    "positionNumber": 693,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 694,
+    "positionNumber": 694,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 695,
+    "positionNumber": 695,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 696,
+    "positionNumber": 696,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 697,
+    "positionNumber": 697,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 698,
+    "positionNumber": 698,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 699,
+    "positionNumber": 699,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 700,
+    "positionNumber": 700,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 701,
+    "positionNumber": 701,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 702,
+    "positionNumber": 702,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 703,
+    "positionNumber": 703,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 704,
+    "positionNumber": 704,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 705,
+    "positionNumber": 705,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 706,
+    "positionNumber": 706,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 707,
+    "positionNumber": 707,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 708,
+    "positionNumber": 708,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 709,
+    "positionNumber": 709,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 710,
+    "positionNumber": 710,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 711,
+    "positionNumber": 711,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 712,
+    "positionNumber": 712,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 713,
+    "positionNumber": 713,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 714,
+    "positionNumber": 714,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 715,
+    "positionNumber": 715,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 716,
+    "positionNumber": 716,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 717,
+    "positionNumber": 717,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 718,
+    "positionNumber": 718,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 719,
+    "positionNumber": 719,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 720,
+    "positionNumber": 720,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 721,
+    "positionNumber": 721,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 722,
+    "positionNumber": 722,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 723,
+    "positionNumber": 723,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 724,
+    "positionNumber": 724,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 725,
+    "positionNumber": 725,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 726,
+    "positionNumber": 726,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 727,
+    "positionNumber": 727,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 728,
+    "positionNumber": 728,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 729,
+    "positionNumber": 729,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 730,
+    "positionNumber": 730,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 731,
+    "positionNumber": 731,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 732,
+    "positionNumber": 732,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 733,
+    "positionNumber": 733,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 734,
+    "positionNumber": 734,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 735,
+    "positionNumber": 735,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 736,
+    "positionNumber": 736,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 737,
+    "positionNumber": 737,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 738,
+    "positionNumber": 738,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 739,
+    "positionNumber": 739,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 740,
+    "positionNumber": 740,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 741,
+    "positionNumber": 741,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 742,
+    "positionNumber": 742,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 743,
+    "positionNumber": 743,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 744,
+    "positionNumber": 744,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 745,
+    "positionNumber": 745,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 746,
+    "positionNumber": 746,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 747,
+    "positionNumber": 747,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 748,
+    "positionNumber": 748,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 749,
+    "positionNumber": 749,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 750,
+    "positionNumber": 750,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 751,
+    "positionNumber": 751,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 752,
+    "positionNumber": 752,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 753,
+    "positionNumber": 753,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 754,
+    "positionNumber": 754,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 755,
+    "positionNumber": 755,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 756,
+    "positionNumber": 756,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 757,
+    "positionNumber": 757,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 758,
+    "positionNumber": 758,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 759,
+    "positionNumber": 759,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 760,
+    "positionNumber": 760,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 761,
+    "positionNumber": 761,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 762,
+    "positionNumber": 762,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 763,
+    "positionNumber": 763,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 764,
+    "positionNumber": 764,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 765,
+    "positionNumber": 765,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 766,
+    "positionNumber": 766,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 767,
+    "positionNumber": 767,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 768,
+    "positionNumber": 768,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 769,
+    "positionNumber": 769,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 770,
+    "positionNumber": 770,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 771,
+    "positionNumber": 771,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 772,
+    "positionNumber": 772,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 773,
+    "positionNumber": 773,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 774,
+    "positionNumber": 774,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 775,
+    "positionNumber": 775,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 776,
+    "positionNumber": 776,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 777,
+    "positionNumber": 777,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 778,
+    "positionNumber": 778,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 779,
+    "positionNumber": 779,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 780,
+    "positionNumber": 780,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 781,
+    "positionNumber": 781,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 782,
+    "positionNumber": 782,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 783,
+    "positionNumber": 783,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 784,
+    "positionNumber": 784,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 785,
+    "positionNumber": 785,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 786,
+    "positionNumber": 786,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 787,
+    "positionNumber": 787,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 788,
+    "positionNumber": 788,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 789,
+    "positionNumber": 789,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 790,
+    "positionNumber": 790,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 791,
+    "positionNumber": 791,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 792,
+    "positionNumber": 792,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 793,
+    "positionNumber": 793,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 794,
+    "positionNumber": 794,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 795,
+    "positionNumber": 795,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 796,
+    "positionNumber": 796,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 797,
+    "positionNumber": 797,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 798,
+    "positionNumber": 798,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 799,
+    "positionNumber": 799,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 800,
+    "positionNumber": 800,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 801,
+    "positionNumber": 801,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 802,
+    "positionNumber": 802,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 803,
+    "positionNumber": 803,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 804,
+    "positionNumber": 804,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 805,
+    "positionNumber": 805,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 806,
+    "positionNumber": 806,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 807,
+    "positionNumber": 807,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 808,
+    "positionNumber": 808,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 809,
+    "positionNumber": 809,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 810,
+    "positionNumber": 810,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 811,
+    "positionNumber": 811,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 812,
+    "positionNumber": 812,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 813,
+    "positionNumber": 813,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 814,
+    "positionNumber": 814,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 815,
+    "positionNumber": 815,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 816,
+    "positionNumber": 816,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 817,
+    "positionNumber": 817,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 818,
+    "positionNumber": 818,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 819,
+    "positionNumber": 819,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 820,
+    "positionNumber": 820,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 821,
+    "positionNumber": 821,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 822,
+    "positionNumber": 822,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 823,
+    "positionNumber": 823,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 824,
+    "positionNumber": 824,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 825,
+    "positionNumber": 825,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 826,
+    "positionNumber": 826,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 827,
+    "positionNumber": 827,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 828,
+    "positionNumber": 828,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 829,
+    "positionNumber": 829,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 830,
+    "positionNumber": 830,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 831,
+    "positionNumber": 831,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 832,
+    "positionNumber": 832,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 833,
+    "positionNumber": 833,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 834,
+    "positionNumber": 834,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 835,
+    "positionNumber": 835,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 836,
+    "positionNumber": 836,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 837,
+    "positionNumber": 837,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 838,
+    "positionNumber": 838,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 839,
+    "positionNumber": 839,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 840,
+    "positionNumber": 840,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 841,
+    "positionNumber": 841,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 842,
+    "positionNumber": 842,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 843,
+    "positionNumber": 843,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 844,
+    "positionNumber": 844,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 845,
+    "positionNumber": 845,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 846,
+    "positionNumber": 846,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 847,
+    "positionNumber": 847,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 848,
+    "positionNumber": 848,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 849,
+    "positionNumber": 849,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 850,
+    "positionNumber": 850,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 851,
+    "positionNumber": 851,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 852,
+    "positionNumber": 852,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 853,
+    "positionNumber": 853,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 854,
+    "positionNumber": 854,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 855,
+    "positionNumber": 855,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 856,
+    "positionNumber": 856,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 857,
+    "positionNumber": 857,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 858,
+    "positionNumber": 858,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 859,
+    "positionNumber": 859,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 860,
+    "positionNumber": 860,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 861,
+    "positionNumber": 861,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 862,
+    "positionNumber": 862,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 863,
+    "positionNumber": 863,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 864,
+    "positionNumber": 864,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 865,
+    "positionNumber": 865,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 866,
+    "positionNumber": 866,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 867,
+    "positionNumber": 867,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 868,
+    "positionNumber": 868,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 869,
+    "positionNumber": 869,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 870,
+    "positionNumber": 870,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 871,
+    "positionNumber": 871,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 872,
+    "positionNumber": 872,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 873,
+    "positionNumber": 873,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 874,
+    "positionNumber": 874,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 875,
+    "positionNumber": 875,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 876,
+    "positionNumber": 876,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 877,
+    "positionNumber": 877,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 878,
+    "positionNumber": 878,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 879,
+    "positionNumber": 879,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 880,
+    "positionNumber": 880,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 881,
+    "positionNumber": 881,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 882,
+    "positionNumber": 882,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 883,
+    "positionNumber": 883,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 884,
+    "positionNumber": 884,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 885,
+    "positionNumber": 885,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 886,
+    "positionNumber": 886,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 887,
+    "positionNumber": 887,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 888,
+    "positionNumber": 888,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 889,
+    "positionNumber": 889,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 890,
+    "positionNumber": 890,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 891,
+    "positionNumber": 891,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 892,
+    "positionNumber": 892,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 893,
+    "positionNumber": 893,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 894,
+    "positionNumber": 894,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 895,
+    "positionNumber": 895,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 896,
+    "positionNumber": 896,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 897,
+    "positionNumber": 897,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 898,
+    "positionNumber": 898,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 899,
+    "positionNumber": 899,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 900,
+    "positionNumber": 900,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 901,
+    "positionNumber": 901,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 902,
+    "positionNumber": 902,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 903,
+    "positionNumber": 903,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 904,
+    "positionNumber": 904,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 905,
+    "positionNumber": 905,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 906,
+    "positionNumber": 906,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 907,
+    "positionNumber": 907,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 908,
+    "positionNumber": 908,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 909,
+    "positionNumber": 909,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 910,
+    "positionNumber": 910,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 911,
+    "positionNumber": 911,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 912,
+    "positionNumber": 912,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 913,
+    "positionNumber": 913,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 914,
+    "positionNumber": 914,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 915,
+    "positionNumber": 915,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 916,
+    "positionNumber": 916,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 917,
+    "positionNumber": 917,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 918,
+    "positionNumber": 918,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 919,
+    "positionNumber": 919,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 920,
+    "positionNumber": 920,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 921,
+    "positionNumber": 921,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 922,
+    "positionNumber": 922,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 923,
+    "positionNumber": 923,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 924,
+    "positionNumber": 924,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 925,
+    "positionNumber": 925,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 926,
+    "positionNumber": 926,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 927,
+    "positionNumber": 927,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 928,
+    "positionNumber": 928,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 929,
+    "positionNumber": 929,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 930,
+    "positionNumber": 930,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 931,
+    "positionNumber": 931,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 932,
+    "positionNumber": 932,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 933,
+    "positionNumber": 933,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 934,
+    "positionNumber": 934,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 935,
+    "positionNumber": 935,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 936,
+    "positionNumber": 936,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 937,
+    "positionNumber": 937,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 938,
+    "positionNumber": 938,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 939,
+    "positionNumber": 939,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 940,
+    "positionNumber": 940,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 941,
+    "positionNumber": 941,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 942,
+    "positionNumber": 942,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 943,
+    "positionNumber": 943,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 944,
+    "positionNumber": 944,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 945,
+    "positionNumber": 945,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 946,
+    "positionNumber": 946,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 947,
+    "positionNumber": 947,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 948,
+    "positionNumber": 948,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 949,
+    "positionNumber": 949,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 950,
+    "positionNumber": 950,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 951,
+    "positionNumber": 951,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 952,
+    "positionNumber": 952,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 953,
+    "positionNumber": 953,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 954,
+    "positionNumber": 954,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 955,
+    "positionNumber": 955,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 956,
+    "positionNumber": 956,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 957,
+    "positionNumber": 957,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 958,
+    "positionNumber": 958,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 959,
+    "positionNumber": 959,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 960,
+    "positionNumber": 960,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 961,
+    "positionNumber": 961,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 962,
+    "positionNumber": 962,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 963,
+    "positionNumber": 963,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 964,
+    "positionNumber": 964,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 965,
+    "positionNumber": 965,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 966,
+    "positionNumber": 966,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 967,
+    "positionNumber": 967,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 968,
+    "positionNumber": 968,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 969,
+    "positionNumber": 969,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 970,
+    "positionNumber": 970,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 971,
+    "positionNumber": 971,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 972,
+    "positionNumber": 972,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 973,
+    "positionNumber": 973,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 974,
+    "positionNumber": 974,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 975,
+    "positionNumber": 975,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 976,
+    "positionNumber": 976,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 977,
+    "positionNumber": 977,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 978,
+    "positionNumber": 978,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 979,
+    "positionNumber": 979,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 980,
+    "positionNumber": 980,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 981,
+    "positionNumber": 981,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 982,
+    "positionNumber": 982,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 983,
+    "positionNumber": 983,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 984,
+    "positionNumber": 984,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 985,
+    "positionNumber": 985,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 986,
+    "positionNumber": 986,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 987,
+    "positionNumber": 987,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 988,
+    "positionNumber": 988,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 989,
+    "positionNumber": 989,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 990,
+    "positionNumber": 990,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 991,
+    "positionNumber": 991,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 992,
+    "positionNumber": 992,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 993,
+    "positionNumber": 993,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 994,
+    "positionNumber": 994,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 995,
+    "positionNumber": 995,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 996,
+    "positionNumber": 996,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 997,
+    "positionNumber": 997,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 998,
+    "positionNumber": 998,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 999,
+    "positionNumber": 999,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  },
+  {
+    "id": 1000,
+    "positionNumber": 1000,
+    "status": "liber",
+    "driver": null,
+    "occupiedAt": null,
+    "releasedAt": null
+  }
+]

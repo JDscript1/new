@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MEGA TRUCKING TIMIȘOARA - Sistem de gestionare șoferi și chei">
+    <meta name="keywords" content="trucking, șoferi, chei, management, timișoara">
+    <meta name="author" content="MEGA TRUCKING TIMIȘOARA">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#0A192F">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="MEGA TRUCKING">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/icons/icon-180x180.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <title>MEGA TRUCKING TIMIȘOARA - Sistem de Gestionare</title>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-container">
+            <div class="loading-logo">
+                <span class="mega">MEGA</span>
+                <span class="trucking">TRUCKING</span>
+                <span class="timisoara">TIMIȘOARA</span>
+            </div>
+            <div class="loading-subtitle">Powered by EWALS CARGO CARE GROUP</div>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+            <div class="loading-text">Se încarcă...</div>
+        </div>
+    </div>
+
+    <!-- Login Screen -->
+    <div id="login-screen" class="login-screen hidden">
+        <div class="login-container">
+            <div class="login-header">
+                <div class="login-logo">
+                    <span class="mega">MEGA</span>
+                    <span class="trucking">TRUCKING</span>
+                    <span class="timisoara">TIMIȘOARA</span>
+                </div>
+                <div class="login-subtitle">Powered by EWALS CARGO CARE GROUP</div>
+            </div>
+            
+            <div class="login-form-container">
+                <form id="login-form" class="login-form" autocomplete="off">
+                    <h2>Autentificare</h2>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                        <i class="fas fa-envelope form-icon"></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Parolă</label>
+                        <div class="password-input-container">
+                            <input type="password" id="password" name="password" required autocomplete="new-password" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            <i class="fas fa-lock form-icon"></i>
+                            <button type="button" class="password-toggle-btn" id="password-toggle">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label class="checkbox-container">
+                            <input type="checkbox" id="remember-me">
+                            <span class="checkmark"></span>
+                            Ține-mă minte
+                        </label>
+                        <a href="/reset-password.html" id="forgot-password" class="forgot-link">Ai uitat parola?</a>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Autentificare</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                    
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="main-app" class="main-app hidden">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="header-left">
+                <div class="app-logo">
+                    <span class="mega">MEGA</span>
+                    <span class="trucking">TRUCKING</span>
+                    <span class="timisoara">TIMIȘOARA</span>
+                </div>
+                <div class="app-subtitle">Powered by EWALS CARGO CARE GROUP</div>
+            </div>
+            
+            <nav class="header-nav">
+                <button class="nav-btn active" data-tab="dashboard">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </button>
+                <button class="nav-btn" data-tab="drivers">
+                    <i class="fas fa-users"></i>
+                    <span>Șoferi</span>
+                </button>
+                <button class="nav-btn" data-tab="docs">
+                    <i class="fas fa-id-card"></i>
+                    <span>Valabilitate Acte</span>
+                </button>
+                <button class="nav-btn" data-tab="charts">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Grafic</span>
+                </button>
+                <button class="nav-btn" data-tab="notifications">
+                    <i class="fas fa-bell"></i>
+                    <span>Notificări</span>
+                </button>
+              
+            </nav>
+            
+            <div class="header-right">
+                <div class="user-menu">
+                    <button class="user-btn" id="user-menu-btn">
+                        <div class="user-avatar">
+                            <img id="header-profile-picture" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiBmaWxsPSIjMzMzMzMzIi8+CjxjaXJjbGUgY3g9IjE2IiBjeT0iMTEiIHI9IjUiIGZpbGw9IiM2NjY2NjYiLz4KPHBhdGggZD0iTTggMjZDMCAyMS42NDA2IDUuNjQwNiAxNiAxMSAxNkgxM0MxOC4zNTk0IDE2IDI0IDIxLjY0MDYgMjQgMjhWMzJIOFYyNloiIGZpbGw9IiM2NjY2NjYiLz4KPC9zdmc+" alt="Admin Avatar">
+                        </div>
+                        <span id="user-name">Admin</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="user-dropdown" id="user-dropdown">
+                        <!-- Profile Picture Section -->
+                        <div class="dropdown-section">
+                            <div class="dropdown-section-title">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Imagine Profil</span>
+                            </div>
+                            <div class="dropdown-profile-section">
+                                <div class="dropdown-profile-preview">
+                                    <img id="dropdown-profile-picture" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBmaWxsPSIjMzMzMzMzIi8+CjxjaXJjbGUgY3g9IjIwIiBjeT0iMTQiIHI9IjYiIGZpbGw9IiM2NjY2NjYiLz4KPHBhdGggZD0iTTEwIDMyQzEwIDI4LjY0MDYgMTMuNjQwNiAyNSAxOCAyNUgyMkMyNi4zNTk0IDI1IDMwIDI4LjY0MDYgMzAgMzJWMzZIMTBWMzJaIiBmaWxsPSIjNjY2NjY2Ii8+Cjwvc3ZnPg==" alt="Profile Picture">
+                                </div>
+                                <div class="dropdown-profile-actions">
+                                    <input type="file" id="dropdown-profile-picture-input" accept="image/*" style="display: none;">
+                                    <button class="dropdown-btn dropdown-btn-primary" id="dropdown-upload-profile-picture-btn">
+                                        <i class="fas fa-upload"></i>
+                                        <span>Încarcă</span>
+                                    </button>
+                                    <button class="dropdown-btn dropdown-btn-secondary" id="dropdown-remove-profile-picture-btn" style="display: none;">
+                                        <i class="fas fa-trash"></i>
+                                        <span>Șterge</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp Link (Minimal) -->
+                        <div class="dropdown-section">
+                            <div class="dropdown-section-title">
+                                <i class="fab fa-whatsapp"></i>
+                                <span>WhatsApp Link</span>
+                            </div>
+                            <div class="dropdown-whatsapp-section">
+                                <div class="wa-accounts" style="margin-bottom:8px; display:flex; align-items:center; gap:6px;">
+                                    <label for="waAccountSelect" class="whatsapp-manager-label" style="margin:0;">Cont:</label>
+                                    <select id="waAccountSelect" class="whatsapp-manager-select" style="margin:0; flex:1;"></select>
+                                    <span id="waAccountStatusDot" class="wa-status-dot" title="Status cont"></span>
+                                </div>
+                                <div class="wa-actions">
+                                    <button id="waNewBtn" class="dropdown-btn dropdown-btn-warning">
+                                        <i class="fas fa-user-plus"></i>
+                                        <span>Cont Nou</span>
+                                    </button>
+                                    <button id="waReconnectBtn" class="dropdown-btn dropdown-btn-primary">
+                                        <i class="fas fa-redo"></i>
+                                        <span>Reconectează</span>
+                                    </button>
+                                    <button id="waDeleteBtn" class="dropdown-btn dropdown-btn-danger">
+                                        <i class="fas fa-trash-alt"></i>
+                                        <span>Șterge Cont</span>
+                                    </button>
+                                </div>
+                                <div id="waStatus" class="whatsapp-manager-status" style="margin-top:8px;"></div>
+                                <div id="waQR" class="whatsapp-manager-qr" style="margin-top:8px;"></div>
+                            </div>
+                        </div>
+
+                        <!-- Theme Section -->
+                        <div class="dropdown-section">
+                            <div class="dropdown-section-title">
+                                <i class="fas fa-palette"></i>
+                                <span>Tema</span>
+                            </div>
+                            <div class="dropdown-theme-section">
+                                <div class="theme-grid">
+                                  <button class="dropdown-btn theme-option" data-theme="default">
+                                    <span>Implicit</span>
+                                  </button>
+                                  <button class="dropdown-btn theme-option" data-theme="midnight">
+                                    <span>Midnight</span>
+                                  </button>
+                                  <button class="dropdown-btn theme-option" data-theme="ocean">
+                                    <span>Ocean</span>
+                                  </button>
+                                  <button class="dropdown-btn theme-option" data-theme="sunset">
+                                    <span>Sunset</span>
+                                  </button>
+                                  <button class="dropdown-btn theme-option" data-theme="forest">
+                                    <span>Forest</span>
+                                  </button>
+                                </div>
+                              </div>
+                        </div>
+
+
+                        <!-- Logout Section -->
+                        <div class="dropdown-section dropdown-section-logout">
+                            <button class="dropdown-btn dropdown-btn-danger dropdown-btn-full" id="dropdown-logout-btn">
+                                <i class="fas fa-sign-out-alt"></i>
+                                <span>Logout</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <!-- Dashboard Tab -->
+            <div id="dashboard-tab" class="tab-content active">
+                <div class="dashboard-container">
+                    <!-- Statistics Cards -->
+                    <div class="stats-grid">
+                        <div class="stat-card clickable-card" data-filter="activ">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="active-drivers-count">0</h3>
+                                <p>Șoferi Activi</p>
+                            </div>
+                            <div class="stat-actions">
+                                <button class="whatsapp-btn" data-status="activ" title="Trimite mesaj WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card clickable-card" data-filter="vine_acasa">
+                            <div class="stat-icon">
+                                <i class="fas fa-home"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="returning-soon-count">0</h3>
+                                <p>Vin Acasă</p>
+                            </div>
+                            <div class="stat-actions">
+                                <button class="whatsapp-btn" data-status="vine_acasa" title="Trimite mesaj WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card clickable-card" data-filter="acasa">
+                            <div class="stat-icon">
+                                <i class="fas fa-bed"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="home-drivers-count">0</h3>
+                                <p>Acasă</p>
+                            </div>
+                            <div class="stat-actions">
+                                <button class="whatsapp-btn" data-status="acasa" title="Trimite mesaj WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card clickable-card" data-filter="catre_sediu">
+                            <div class="stat-icon">
+                                <i class="fas fa-building"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="coming-to-work-count">0</h3>
+                                <p>Catre Sediu</p>
+                            </div>
+                            <div class="stat-actions">
+                                <button class="whatsapp-btn" data-status="catre_sediu" title="Trimite mesaj WhatsApp">
+                                    <i class="fab fa-whatsapp"></i>
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-th"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="occupied-racks-count">0</h3>
+                                <p>Poziții Ocupate</p>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h3 id="free-racks-count">1000</h3>
+                                <p>Poziții Libere</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="quick-actions">
+                        <button class="btn btn-primary" id="add-driver-btn">
+                            <i class="fas fa-plus"></i>
+                            <span>Adaugă Șofer</span>
+                        </button>
+                        <button class="btn btn-secondary" id="refresh-data-btn">
+                            <i class="fas fa-sync-alt"></i>
+                            <span>Actualizează</span>
+                        </button>
+                    </div>
+
+                    <!-- Rack Grid -->
+                    <div class="rack-section">
+                        <h2>
+                          Raftul de Chei
+                          <span style="margin-left:10px; font-weight:400; font-size:0.9rem; display:inline-flex; gap:6px; align-items:center;">
+                            <label for="lock-code-input" style="color:var(--text-gray);">Cod Lacăt:</label>
+                            <input id="lock-code-input" type="text" placeholder="ex: 1234" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            <button class="dropdown-btn dropdown-btn-primary" id="lock-code-save" title="Salvează codul">Salvează</button>
+                          </span>
+                        </h2>
+                        <div class="rack-grid" id="rack-grid">
+                            <!-- Rack positions will be generated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drivers Tab -->
+            <div id="drivers-tab" class="tab-content">
+                <div class="drivers-container">
+                    <div class="drivers-header">
+                        <h2>Gestionare Șoferi</h2>
+                    <div class="drivers-actions">
+                            <div class="search-box">
+                                <input type="text" id="driver-search" placeholder="Caută șoferi..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <button class="btn btn-primary" id="add-driver-btn-2">
+                                <i class="fas fa-plus"></i>
+                                <span>Șofer Nou</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="drivers-table-container">
+                        <table class="drivers-table" id="drivers-table">
+                            <thead>
+                                <tr>
+                                    <th>Nume</th>
+                                    <th>Telefon</th>
+                                    <th>Mașină</th>
+                                    <th>Poziție</th>
+                                    <th>Plecare</th>
+                                    <th>Sosire</th>
+                                    <th>Status</th>
+                                    <th>Acțiuni</th>
+                                </tr>
+                            </thead>
+                            <tbody id="drivers-table-body">
+                                <!-- Drivers will be loaded by JavaScript -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Tab -->
+            <div id="charts-tab" class="tab-content">
+                <div class="charts-container">
+                    <div class="charts-header">
+                        <h2>Grafic Plecări</h2>
+                        <div class="charts-controls">
+                            <button class="btn btn-primary" id="refresh-charts-btn">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Actualizează Grafice</span>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Chart Sub-tabs -->
+                    <div class="chart-tabs">
+                        <button class="chart-tab-btn active" data-chart="week">
+                            <i class="fas fa-calendar-week"></i>
+                            <span>Săptămâna Curentă</span>
+                        </button>
+                        <button class="chart-tab-btn" data-chart="month">
+                            <i class="fas fa-calendar-alt"></i>
+                            <span>Luna Curentă</span>
+                        </button>
+                        <button class="chart-tab-btn" data-chart="year">
+                            <i class="fas fa-calendar"></i>
+                            <span>Anul Curent</span>
+                        </button>
+                    </div>
+                    
+                    <!-- Chart Content -->
+                    <div class="chart-content">
+                        <!-- Week Chart -->
+                        <div id="week-chart" class="chart-panel active">
+                            <div class="chart-header">
+                                <div class="chart-title-section">
+                                    <h3>Plecări - Săptămâna <span id="current-week-number">1</span></h3>
+                                    <div class="period-selector">
+                                        <label for="week-selector">Selectează săptămâna:</label>
+                                        <select id="week-selector" class="period-dropdown">
+                                            <option value="current">Săptămâna curentă</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="chart-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Total Plecări:</span>
+                                        <span class="stat-value" id="week-total">0</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Media Zilnică:</span>
+                                        <span class="stat-value" id="week-average">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="weekChart" width="800" height="400"></canvas>
+                            </div>
+                        </div>
+                        
+                        <!-- Month Chart -->
+                        <div id="month-chart" class="chart-panel">
+                            <div class="chart-header">
+                                <div class="chart-title-section">
+                                    <h3>Plecări - <span id="current-month-name">Ianuarie</span> <span id="current-month-year">2025</span></h3>
+                                    <div class="period-selector">
+                                        <label for="month-selector">Selectează luna:</label>
+                                        <select id="month-selector" class="period-dropdown">
+                                            <option value="current">Luna curentă</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="chart-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Total Plecări:</span>
+                                        <span class="stat-value" id="month-total">0</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Media Zilnică:</span>
+                                        <span class="stat-value" id="month-average">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="monthChart" width="800" height="400"></canvas>
+                            </div>
+                        </div>
+                        
+                        <!-- Year Chart -->
+                        <div id="year-chart" class="chart-panel">
+                            <div class="chart-header">
+                                <div class="chart-title-section">
+                                    <h3>Plecări - Anul <span id="current-year">2025</span></h3>
+                                    <div class="period-selector">
+                                        <label for="year-selector">Selectează anul:</label>
+                                        <select id="year-selector" class="period-dropdown">
+                                            <option value="current">Anul curent</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="chart-stats">
+                                    <div class="stat-item">
+                                        <span class="stat-label">Total Plecări:</span>
+                                        <span class="stat-value" id="year-total">0</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <span class="stat-label">Media Lunară:</span>
+                                        <span class="stat-value" id="year-average">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="chart-container">
+                                <canvas id="yearChart" width="800" height="400"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Notifications Tab -->
+            <div id="notifications-tab" class="tab-content">
+                <div class="notifications-container">
+                    <div class="notifications-header">
+                        <h2>Notificări</h2>
+                        <button class="btn btn-secondary" id="mark-all-read-btn">
+                            <i class="fas fa-check-double"></i>
+                            <span>Marchează toate ca citite</span>
+                        </button>
+                    </div>
+                    
+                    <div class="notifications-list" id="notifications-list">
+                        <!-- Notifications will be loaded by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        
+        <!-- Status Tab -->
+        <div id="docs-tab" class="tab-content">
+          <div class="charts-container">
+            <div class="charts-header">
+              <h2>Valabilitate Acte</h2>
+              <div style="display:flex; gap:8px; align-items:center;">
+                <div class="search-box">
+                  <input type="text" id="docs-search" placeholder="Caută șoferi...">
+                  <i class="fas fa-search"></i>
+                </div>
+                <select id="docs-expiry-filter" class="period-dropdown">
+                  <option value="all">Toate</option>
+                  <option value="30">Expiră în ≤ 30 zile</option>
+                  <option value="60">Expiră în ≤ 60 zile</option>
+                  <option value="90">Expiră în ≤ 90 zile</option>
+                </select>
+                <div class="search-box" style="min-width: 360px;">
+                  <input type="text" id="docs-global-preset" placeholder="Mesaj Automat Prestabilit pentru toate notificările de acte..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                  <i class="fas fa-magic"></i>
+                </div>
+                <button class="dropdown-btn" id="docs-global-save" title="Salvează mesajul automat">Salvează</button>
+              </div>
+            </div>
+            <div id="docs-list" class="drivers-docs-list"></div>
+          </div>
+        </div>
+        <!-- Chat Tab -->
+        <div id="chat-tab" class="tab-content">
+          <div class="charts-container">
+            <div class="charts-header">
+              <h2>Conversații WhatsApp</h2>
+            </div>
+            <div class="chat-layout" style="display:flex; gap:8px;">
+              <div class="chat-sidebar" style="flex: 0 0 320px; border-right:1px solid rgba(255,255,255,0.1); display:flex; flex-direction:column;">
+                <div style="display:flex; gap:6px; margin-bottom:8px;">
+                  <button class="dropdown-btn" id="chat-tab-conv" style="flex:1;">Conversații</button>
+                  <button class="dropdown-btn" id="chat-tab-contacts" style="flex:1;">Contacte</button>
+                </div>
+                <div class="search-box" style="margin-bottom:8px;">
+                  <input type="text" id="chat-search" placeholder="Caută...">
+                  <i class="fas fa-search"></i>
+                </div>
+                <div id="chat-list" style="flex:1; overflow-y:auto;"></div>
+              </div>
+              <div id="chat-thread" style="flex:1; display:flex; flex-direction:column;">
+                <div id="chat-thread-header" style="display:flex; align-items:center; justify-content:space-between; gap:8px; border:1px solid rgba(255,255,255,0.08); border-radius:8px; padding:8px 10px; margin-bottom:8px;">
+                  <div style="display:flex; align-items:center; gap:10px;">
+                    <div class="chat-avatar" id="chat-header-avatar">?</div>
+                    <div style="min-width:0;">
+                      <div id="chat-header-title" style="color:var(--text-light); font-weight:700;">Conversație</div>
+                      <div id="chat-header-sub" style="color:var(--text-gray); font-size:0.8rem;"></div>
+                    </div>
+                  </div>
+                  <div class="header-actions" style="display:flex; gap:6px; flex-shrink:0;">
+                    <button class="dropdown-btn" id="chat-header-pin" title="Pin/Unpin"><i class="fas fa-thumbtack"></i></button>
+                    <button class="dropdown-btn" id="chat-header-mute" title="Mute/Unmute"><i class="fas fa-bell-slash"></i></button>
+                    <button class="dropdown-btn" id="chat-header-delete" title="Șterge conversația"><i class="fas fa-trash"></i></button>
+                  </div>
+                </div>
+                <div id="chat-thread-messages" role="log" aria-live="polite" aria-relevant="additions" style="flex:1; overflow-y:auto; padding:8px; gap:6px; display:flex; flex-direction:column; margin-bottom:8px;"></div>
+                <div id="chat-typing" class="typing-indicator">Scrie...</div>
+                <div id="chat-composer" style="display:flex; gap:6px; align-items:center; padding-top:8px; border-top:1px solid rgba(255,255,255,0.1);">
+                  <button class="dropdown-btn" id="chat-attach-btn" title="Atașează"><i class="fas fa-paperclip"></i></button>
+                  <input type="file" id="chat-file" accept="image/*,video/*,audio/*" style="display:none">
+                  <div id="chat-upload-preview" style="display:none; align-items:center; gap:6px;"></div>
+                  <input type="text" id="chat-input" placeholder="Scrie un mesaj" style="flex:1;">
+                  <button class="dropdown-btn" id="chat-emoji-btn" title="Emoji"><i class="far fa-smile"></i></button>
+                  <button class="dropdown-btn dropdown-btn-primary" id="chat-send-btn" title="Trimite"><i class="fas fa-paper-plane"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <!-- Add/Edit Driver Modal -->
+    <div id="driver-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="driver-modal-title">
+        <div class="modal-content" tabindex="-1">
+            <div class="modal-header">
+                <h3 id="driver-modal-title">Adaugă Șofer</h3>
+                <button class="modal-close" id="driver-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="driver-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="driver-first-name">Prenume *</label>
+                            <input type="text" id="driver-first-name" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-last-name">Nume *</label>
+                            <input type="text" id="driver-last-name" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="driver-phone">Telefon *</label>
+                            <div class="phone-input-wrapper">
+                                <div class="country-selector-container">
+                                    <button type="button" id="country-selector-btn" class="country-btn" title="Selectează țara">
+                                        <span id="country-code">RO</span>
+                                        <i class="fas fa-chevron-down"></i>
+                                    </button>
+                                    <div id="country-dropdown" class="country-dropdown">
+                                        <div class="country-search">
+                                            <input type="text" id="country-search" placeholder="Caută țara...">
+                                        </div>
+                                        <div class="country-list" id="country-list">
+                                            <!-- Countries will be populated by JavaScript -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <input type="tel" id="driver-phone" name="phone" required placeholder="Numărul de telefon" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-car-number">Număr Mașină *</label>
+                            <input type="text" id="driver-car-number" name="carNumber" class="car-number-input" placeholder="ex: B-123-ABC" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="driver-rack-position">Poziție Raft *</label>
+                            <select id="driver-rack-position" name="rackPosition" required>
+                                <!-- Options will be populated by JavaScript -->
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-locker-code">Cod Dulap</label>
+                            <input type="text" id="driver-locker-code" name="lockerCode">
+                        </div>
+                        <div class="form-group" id="fleet-number-group" style="display: none;">
+                            <label for="driver-fleet-number">Numar Flota</label>
+                            <input type="text" id="driver-fleet-number" name="fleetNumber" placeholder="ex: 16076" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="driver-departure-datetime">Data și Ora Plecării *</label>
+                            <input type="datetime-local" id="driver-departure-datetime" name="departureDateTime" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="driver-return-datetime">Data și Ora Sosirii *</label>
+                            <input type="datetime-local" id="driver-return-datetime" name="estimatedReturnDateTime" required>
+                        </div>
+                    </div>
+
+                        <hr style="border-color: rgba(255,255,255,0.1); margin: 8px 0;">
+
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label>Acte</label>
+                          </div>
+                        </div>
+
+                        <!-- Carte Identitate (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="id-expiry-date">Carte Identitate - Data expirării</label>
+                            <input type="date" id="id-expiry-date" name="idExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+
+                        <!-- Pașaport (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="passport-expiry-date">Pașaport - Data expirării</label>
+                            <input type="date" id="passport-expiry-date" name="passportExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+
+                        <!-- Permis (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="license-expiry-date">Permis - Data expirării</label>
+                            <input type="date" id="license-expiry-date" name="licenseExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+
+                        <!-- Card Tahograf (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="tacho-expiry-date">Card Tahograf - Data expirării</label>
+                            <input type="date" id="tacho-expiry-date" name="tachoExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+
+                        <!-- Atestat (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="atestat-expiry-date">Atestat - Data expirării</label>
+                            <input type="date" id="atestat-expiry-date" name="atestatExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+
+                        <!-- Atestat ADR (doar expirare) -->
+                        <div class="form-row">
+                          <div class="form-group" style="grid-column: 1 / -1;">
+                            <label for="adr-expiry-date">Atestat ADR - Data expirării</label>
+                            <input type="date" id="adr-expiry-date" name="adrExpiryDate" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+                          </div>
+                        </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" id="driver-modal-cancel">Anulează</button>
+                <button type="submit" form="driver-form" class="btn btn-primary" id="driver-modal-save">Salvează</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Position Details Modal -->
+    <div id="position-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="position-modal-title">
+        <div class="modal-content" tabindex="-1">
+            <div class="modal-header">
+                <h3 id="position-modal-title">Detalii Poziție</h3>
+                <button class="modal-close" id="position-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="position-modal-body">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+            <div class="modal-footer" id="position-modal-footer">
+                <!-- Buttons will be populated by JavaScript -->
+            </div>
+        </div>
+            </div>
+
+
+
+    <!-- WhatsApp Message Modal -->
+    <div id="whatsapp-message-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="whatsapp-message-title">
+        <div class="modal-content" tabindex="-1">
+            <div class="modal-header">
+                <h3 id="whatsapp-message-title">
+                    <i class="fab fa-whatsapp"></i>
+                    Trimite Mesaj WhatsApp
+                </h3>
+                <button class="modal-close" id="whatsapp-modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Status Info -->
+                <div class="message-status-info">
+                    <div class="status-badge" id="message-status-badge">
+                        <i class="fas fa-users"></i>
+                        <span id="message-status-text">Șoferi Activi</span>
+                    </div>
+                    <div class="status-count" id="message-status-count">0 șoferi</div>
+                </div>
+
+                <!-- Driver Selection -->
+                <div class="driver-selection-section">
+                    <h4>Selectează Șoferi:</h4>
+                    <div class="selection-controls">
+                        <button class="selection-btn" id="select-all-btn">
+                            <i class="fas fa-check-square"></i>
+                            Selectează Tot
+                        </button>
+                        <button class="selection-btn" id="deselect-all-btn">
+                            <i class="fas fa-square"></i>
+                            Deselectează Tot
+                        </button>
+                    </div>
+                    <div class="drivers-list" id="whatsapp-drivers-list">
+                        <!-- Drivers will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Custom Message -->
+                <div class="custom-message-section">
+                    <h4>Mesaj Automat Prestabilit:</h4>
+                    <textarea 
+                        id="custom-message-text" 
+                        placeholder="Scrie mesajul personalizat aici..."
+                        rows="3"
+                        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    ></textarea>
+                </div>
+
+                
+
+                <!-- Private Message -->
+                <div class="private-message-section">
+                    <h4>Mesaj Privat:</h4>
+                    <textarea 
+                        id="private-message-text" 
+                        placeholder="Mesaj privat care nu se resetează..."
+                        rows="3"
+                        autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                    ></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="whatsapp-modal-cancel">
+                    <i class="fas fa-times"></i>
+                    Anulează
+                </button>
+                <button class="btn btn-primary" id="whatsapp-send-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    Trimite Mesaj
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Chat Modal -->
+    <div id="whatsapp-chat-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="whatsapp-chat-title">
+      <div class="modal-content" tabindex="-1" style="max-width: 900px; width: 95%; max-height: 90vh; display:flex;">
+        <div class="modal-header">
+          <h3 id="whatsapp-chat-title"><i class="fab fa-whatsapp"></i> Conversații</h3>
+          <button class="modal-close" id="whatsapp-chat-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="modal-body" style="display:flex; gap:8px; height: 65vh;">
+          <div id="chat-list" style="flex: 0 0 280px; border-right:1px solid rgba(255,255,255,0.1); overflow-y:auto;"></div>
+          <div id="chat-thread" style="flex:1; display:flex; flex-direction:column;">
+            <div id="chat-thread-messages" role="log" aria-live="polite" aria-relevant="additions" style="flex:1; overflow-y:auto; padding:8px; gap:6px; display:flex; flex-direction:column;"></div>
+            <div id="chat-composer" style="display:flex; gap:6px; align-items:center; padding-top:8px; border-top:1px solid rgba(255,255,255,0.1);">
+              <button class="dropdown-btn" id="chat-modal-attach-btn" title="Atașează"><i class="fas fa-paperclip"></i></button>
+              <input type="file" id="chat-modal-file" accept="image/*,video/*,audio/*" style="display:none">
+              <div id="chat-modal-upload-preview" style="display:none; align-items:center; gap:6px;"></div>
+              <input type="text" id="chat-modal-input" placeholder="Scrie un mesaj" style="flex:1;">
+              <button class="dropdown-btn" id="chat-modal-emoji-btn" title="Emoji"><i class="far fa-smile"></i></button>
+              <button class="dropdown-btn dropdown-btn-primary" id="chat-modal-send-btn" title="Trimite"><i class="fas fa-paper-plane"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <span style="color:var(--text-gray); font-size:0.85rem;">Conectați la contul WA activ</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/utils.js?v=20251010-5"></script>
+    <script src="/js/car-number-formatter.js?v=20251010-5"></script>
+    <script src="/js/auto-formatter.js?v=20251010-5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js"></script>
+    <script>
+      // Check if QRCode library loaded
+      window.addEventListener('load', function() {
+        console.log('QRCode library loaded:', typeof qrcode !== 'undefined');
+        console.log('qrcode function:', typeof qrcode);
+        console.log('window.qrcode:', typeof window.qrcode);
+        if (typeof qrcode === 'undefined' && typeof window.qrcode === 'undefined') {
+          console.error('QRCode library failed to load');
+          // Try to load alternative library
+          const script = document.createElement('script');
+          script.src = 'https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js';
+          script.onload = function() {
+            console.log('QRCode library loaded via fallback');
+          };
+          script.onerror = function() {
+            console.error('QRCode library fallback failed');
+          };
+          document.head.appendChild(script);
+        }
+      });
+    </script>
+    <script src="/js/app.js?v=20251010-10"></script>
+</body>
+</html>
