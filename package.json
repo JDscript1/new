@@ -1,0 +1,24 @@
+{
+  "name": "railway-runner",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Runner minimal pentru deploy pe Railway folosind serverul din rădăcină",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.6",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^7.0.9"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+
+
