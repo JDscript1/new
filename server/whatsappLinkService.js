@@ -38,12 +38,14 @@ class WhatsAppLinkService {
       }
       
       this.clientInitializing = true;
+      const executablePath = process.env.PUPPETEER_EXECUTABLE_PATH || 'chromium';
       this.client = new Client({
         authStrategy: new LocalAuth({
           clientId: 'car-key-manager'
         }),
         puppeteer: {
           headless: true,
+          executablePath,
           args: [
             '--no-sandbox',
             '--disable-setuid-sandbox',

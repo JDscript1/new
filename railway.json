@@ -7,6 +7,23 @@
           "cmds": [
             "npm install --omit=dev"
           ]
+        },
+        "setup": {
+          "nixPkgs": [
+            "chromium",
+            "libglib",
+            "libx11",
+            "libxkbcommon",
+            "freetype",
+            "nss",
+            "atk",
+            "at-spi2-atk",
+            "cairo",
+            "pango",
+            "cups",
+            "libdrm",
+            "mesa"
+          ]
         }
       }
     }
