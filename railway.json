@@ -10,6 +10,7 @@
         },
         "setup": {
           "nixPkgs": [
+            "nodejs_22",
             "chromium",
             "glib",
             "xorg.libX11",
