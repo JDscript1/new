@@ -209,12 +209,82 @@ app.get('/api/health', (req, res) => {
 });
 
 // ============================
+// Auth - refresh token
+// ============================
+app.post('/api/auth/refresh-token', (req, res) => {
+  const { refreshToken } = req.body || {};
+  if (!refreshToken) return res.status(400).json({ success: false, message: 'Lipsește refreshToken' });
+  // Acceptăm orice string (demo) și generăm token nou
+  const demoUser = drivers && drivers[0] ? drivers[0] : { email: 'admin@megatrucking.ro', role: 'admin' };
+  const accessToken = jwt.sign({ email: demoUser.email || 'admin@megatrucking.ro', role: demoUser.role || 'admin' }, JWT_SECRET, { expiresIn: '24h' });
+  return res.json({ success: true, tokens: { accessToken, refreshToken } });
+});
+
+// ============================
 // Drivers minimal API
 // ============================
 app.get('/api/drivers', (req, res) => {
   try { res.setHeader('Cache-Control', 'no-store'); } catch (_) {}
   drivers = loadJson(driversFile, drivers);
   res.json({ drivers });
+});
+
+app.post('/api/drivers', (req, res) => {
+  try { res.setHeader('Cache-Control', 'no-store'); } catch (_) {}
+  const body = req.body || {};
+  drivers = loadJson(driversFile, drivers);
+  const id = body.id || crypto.randomBytes(6).toString('hex');
+  const driver = { id, ...body };
+  drivers.push(driver);
+  saveJson(driversFile, drivers);
+  reconcileRacksWithDrivers();
+  res.status(201).json({ success: true, driver, code: 'DRIVER_CREATED' });
+});
+
+app.get('/api/drivers/:id', (req, res) => {
+  drivers = loadJson(driversFile, drivers);
+  const driver = drivers.find(d => String(d.id) === String(req.params.id));
+  if (!driver) return res.status(404).json({ success: false, message: 'Driver not found' });
+  res.json({ success: true, driver });
+});
+
+app.put('/api/drivers/:id', (req, res) => {
+  drivers = loadJson(driversFile, drivers);
+  const idx = drivers.findIndex(d => String(d.id) === String(req.params.id));
+  if (idx === -1) return res.status(404).json({ success: false, message: 'Driver not found' });
+  const prev = drivers[idx];
+  const updated = { ...prev, ...req.body };
+  drivers[idx] = updated;
+  saveJson(driversFile, drivers);
+  reconcileRacksWithDrivers();
+  res.json({ success: true, driver: updated, code: 'DRIVER_UPDATED' });
+});
+
+app.delete('/api/drivers/:id', (req, res) => {
+  drivers = loadJson(driversFile, drivers);
+  const before = drivers.length;
+  drivers = drivers.filter(d => String(d.id) !== String(req.params.id));
+  if (drivers.length === before) return res.status(404).json({ success: false, message: 'Driver not found' });
+  saveJson(driversFile, drivers);
+  reconcileRacksWithDrivers();
+  res.json({ success: true, code: 'DRIVER_DELETED' });
+});
+
+app.post('/api/drivers/:id/release', (req, res) => {
+  // Eliberează poziția de raft asociată șoferului
+  drivers = loadJson(driversFile, drivers);
+  const driver = drivers.find(d => String(d.id) === String(req.params.id));
+  if (!driver) return res.status(404).json({ success: false, message: 'Driver not found' });
+  driver.rackPosition = null;
+  saveJson(driversFile, drivers);
+  reconcileRacksWithDrivers();
+  res.json({ success: true, driver, code: 'DRIVER_RELEASED' });
+});
+
+app.post('/api/drivers/:id/send-reminder', (req, res) => {
+  // Stub: trimite reminder (log only)
+  console.log(`📨 Reminder requested for driver ${req.params.id}`);
+  res.json({ success: true, code: 'REMINDER_SENT' });
 });
 
 // ============================
@@ -250,6 +320,193 @@ app.get('/api/racks/position/:positionNumber', (req, res) => {
   reconcileRacksWithDrivers();
   res.json({ rack: racks[pos - 1] });
 });
+
+app.post('/api/racks/:positionNumber/release', (req, res) => {
+  const pos = parseInt(req.params.positionNumber, 10);
+  if (!Number.isInteger(pos) || pos < 1 || pos > racks.length) return res.status(404).json({ success: false, message: 'RACK_NOT_FOUND' });
+  // Eliberează și șoferul care ocupă poziția
+  drivers = loadJson(driversFile, drivers);
+  drivers = drivers.map(d => (parseInt(d.rackPosition, 10) === pos ? { ...d, rackPosition: null } : d));
+  saveJson(driversFile, drivers);
+  reconcileRacksWithDrivers();
+  res.json({ success: true, rack: racks[pos - 1], code: 'RACK_RELEASED' });
+});
+
+app.put('/api/racks/:positionNumber/status', (req, res) => {
+  const pos = parseInt(req.params.positionNumber, 10);
+  const { status } = req.body || {};
+  if (!Number.isInteger(pos) || pos < 1 || pos > racks.length) return res.status(404).json({ success: false, message: 'RACK_NOT_FOUND' });
+  if (!status) return res.status(400).json({ success: false, message: 'Missing status' });
+  racks[pos - 1].status = status;
+  // Persist racks file
+  saveJson(racksFile, racks);
+  res.json({ success: true, rack: racks[pos - 1], code: 'RACK_STATUS_UPDATED' });
+});
+
+app.get('/api/racks/:positionNumber/history', (req, res) => {
+  const pos = parseInt(req.params.positionNumber, 10);
+  if (!Number.isInteger(pos) || pos < 1 || pos > racks.length) return res.status(404).json({ success: false, message: 'RACK_NOT_FOUND' });
+  res.json({ success: true, position: pos, history: [] });
+});
+
+// ============================
+// Metrics API (simplificat pentru dashboard)
+// ============================
+app.get('/api/metrics', (req, res) => {
+  reconcileRacksWithDrivers();
+  const occupied = racks.filter(r => r.status === 'ocupat').length;
+  const free = racks.length - occupied;
+  const active = drivers.filter(d => !!d.rackPosition).length;
+  res.json({
+    racks: { occupied, released: 0, transfers: 0, free },
+    drivers: { active, total: drivers.length },
+    timestamp: new Date().toISOString()
+  });
+});
+
+// ============================
+// SSE endpoints (app + whatsapp)
+// ============================
+const appSseClients = new Set();
+app.get('/api/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders && res.flushHeaders();
+  appSseClients.add(res);
+  res.write(`event: ready\n`);
+  res.write(`data: {"ok":true}\n\n`);
+  const keep = setInterval(() => {
+    if (res.writableEnded) return clearInterval(keep);
+    res.write(`event: ping\n`);
+    res.write(`data: {"ts":"${new Date().toISOString()}"}\n\n`);
+  }, 25000);
+  req.on('close', () => { clearInterval(keep); appSseClients.delete(res); });
+});
+
+// WhatsApp: integrează serviciile reale dacă modulele sunt disponibile
+let waLinkService = null;
+let waMultiManager = null;
+try {
+  waLinkService = require(path.join(baseDir, 'server', 'whatsappLinkService.js'));
+  const MultiManager = require(path.join(baseDir, 'server', 'multiClientManager.js'));
+  waMultiManager = MultiManager;
+  // Initializează managerul
+  try { waMultiManager.init?.(); } catch(_) {}
+} catch (_) {
+  console.log('⚠️ WhatsApp real services not available in Railway build - falling back to stubs');
+}
+
+const waSseClients = new Set();
+app.get('/api/whatsapp/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders && res.flushHeaders();
+  waSseClients.add(res);
+  res.write(`event: ready\n`);
+  res.write(`data: {"connected":false}\n\n`);
+  const keep = setInterval(() => {
+    if (res.writableEnded) return clearInterval(keep);
+    res.write(`event: ping\n`);
+    res.write(`data: {"ts":"${new Date().toISOString()}"}\n\n`);
+  }, 25000);
+  req.on('close', () => { clearInterval(keep); waSseClients.delete(res); });
+});
+
+// ============================
+// WhatsApp endpoints (real if available, otherwise graceful responses)
+// ============================
+app.get('/api/whatsapp/status', async (req, res) => {
+  try {
+    if (waLinkService) {
+      const svc = new waLinkService();
+      await svc.initialize().catch(()=>{});
+      const st = await svc.checkConnection();
+      return res.json({
+        isReady: st.connected,
+        isConnected: st.connected,
+        message: st.message,
+        qrCode: st.qrCode,
+        qrDataUrl: st.qrDataUrl,
+        initializing: st.initializing
+      });
+    }
+  } catch (_) {}
+  return res.json({ isReady: false, isConnected: false, message: 'Disabled', qrCode: null, qrDataUrl: null, initializing: false });
+});
+
+app.get('/api/whatsapp/health', async (req, res) => {
+  try {
+    if (waMultiManager) {
+      const accounts = await waMultiManager.listAccounts();
+      const active = waMultiManager.getActiveClientId();
+      const activeClient = waMultiManager.getActiveClient();
+      const isConnected = !!(activeClient && activeClient.status && activeClient.status.connected);
+      const hasQR = !!(activeClient && activeClient.status && activeClient.status.qr);
+      return res.json({ activeClientId: active, connected: isConnected, hasQR, accounts });
+    }
+  } catch (_) {}
+  return res.json({ activeClientId: null, connected: false, hasQR: false, accounts: [] });
+});
+
+app.get('/api/whatsapp/accounts', async (req, res) => {
+  try { return res.json({ accounts: waMultiManager ? await waMultiManager.listAccounts() : [] }); } catch (_) { return res.json({ accounts: [] }); }
+});
+
+app.post('/api/whatsapp/add', async (req, res) => {
+  const { id } = req.body || {};
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  await waMultiManager.addClient(id || 'default');
+  res.json({ success: true });
+});
+
+app.delete('/api/whatsapp/remove', async (req, res) => {
+  const { id } = req.body || {};
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  const result = await waMultiManager.removeClient(id || 'default');
+  res.json({ success: !!result });
+});
+
+app.post('/api/whatsapp/switch', async (req, res) => {
+  const { id } = req.body || {};
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  await waMultiManager.switchClient(id || 'default');
+  res.json({ success: true });
+});
+
+app.post('/api/whatsapp/regenerate', async (req, res) => {
+  const { id } = req.body || {};
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  const qr = await waMultiManager.regenerateQR(id || 'default', {});
+  res.json({ success: !!qr, qr });
+});
+
+app.post('/api/whatsapp/cleanup-invalid', async (req, res) => {
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  const result = await waMultiManager.cleanupInvalidSessions();
+  res.json({ success: true, result });
+});
+
+app.post('/api/whatsapp/cleanup-all', async (req, res) => {
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  const result = await waMultiManager.removeAllSessions();
+  res.json({ success: !!(result && result.ok), result });
+});
+
+app.post('/api/whatsapp/force-cleanup', async (req, res) => {
+  if (!waMultiManager) return res.json({ success: false, code: 'WA_DISABLED' });
+  await waMultiManager.killAllChromeProcesses();
+  res.json({ success: true });
+});
+
+app.get('/api/whatsapp/contacts', async (req, res) => {
+  if (!waMultiManager) return res.json({ contacts: [] });
+  const active = waMultiManager.getActiveClient();
+  if (!active || !active.status.connected) return res.json({ contacts: [] });
+  try { const contacts = await active.getContacts(); return res.json({ contacts }); } catch { return res.json({ contacts: [] }); }
+});
+
 
 // Login
 app.post('/api/auth/login', (req, res) => {
