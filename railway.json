@@ -5,7 +5,7 @@
       "phases": {
         "install": {
           "cmds": [
-            "npm ci --omit=dev"
+            "npm install --omit=dev"
           ]
         }
       }
